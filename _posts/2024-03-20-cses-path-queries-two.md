@@ -45,95 +45,126 @@ const int S = (1 << D);
 int n, q, v[N];
 vector<int> adj[N];
 
-int sz[N], p[N], dep[N];
+int sz[N], p[N][D], dep[N];
 int st[S], id[N], tp[N];
 
-void update(int idx, int val) {
-	st[idx += n] = val;
-	for (idx /= 2; idx; idx /= 2) st[idx] = max(st[2 * idx], st[2 * idx + 1]);
+void update(int idx, int val, int i = 1, int l = 1, int r = n) {
+  if (l == r) {
+    st[i] = val;
+    return;
+  }
+  int m = (l + r) / 2;
+  if (idx <= m)
+    update(idx, val, i * 2, l, m);
+  else
+    update(idx, val, i * 2 + 1, m + 1, r);
+  st[i] = max(st[i * 2], st[i * 2 + 1]);
 }
-
-int query(int lo, int hi) {
-	int ra = 0, rb = 0;
-	for (lo += n, hi += n + 1; lo < hi; lo /= 2, hi /= 2) {
-		if (lo & 1) ra = max(ra, st[lo++]);
-		if (hi & 1) rb = max(rb, st[--hi]);
-	}
-	return max(ra, rb);
+int query(int lo, int hi, int i = 1, int l = 1, int r = n) {
+  if (lo > r || hi < l) return 0;
+  if (lo <= l && r <= hi) return st[i];
+  int m = (l + r) / 2;
+  return max(query(lo, hi, i * 2, l, m), query(lo, hi, i * 2 + 1, m + 1, r));
 }
 
 int dfs_sz(int cur, int par) {
-	sz[cur] = 1;
-	p[cur] = par;
-	for (int chi : adj[cur]) {
-		if (chi == par) continue;
-		dep[chi] = dep[cur] + 1;
-		p[chi] = cur;
-		sz[cur] += dfs_sz(chi, cur);
-	}
-	return sz[cur];
+  sz[cur] = 1;
+  for (int chi : adj[cur]) {
+    if (chi == par) continue;
+    dep[chi] = dep[cur] + 1;
+    p[chi][0] = cur;
+    sz[cur] += dfs_sz(chi, cur);
+  }
+  return sz[cur];
 }
-
+void init_lca() {
+  for (int d = 1; d < 18; d++)
+    for (int i = 1; i <= n; i++) p[i][d] = p[p[i][d - 1]][d - 1];
+}
 int ct = 1;
-
 void dfs_hld(int cur, int par, int top) {
-	id[cur] = ct++;
-	tp[cur] = top;
-	update(id[cur], v[cur]);
-	int h_chi = -1, h_sz = -1;
-	for (int chi : adj[cur]) {
-		if (chi == par) continue;
-		if (sz[chi] > h_sz) {
-			h_sz = sz[chi];
-			h_chi = chi;
-		}
-	}
-	if (h_chi == -1) return;
-	dfs_hld(h_chi, cur, top);
-	for (int chi : adj[cur]) {
-		if (chi == par || chi == h_chi) continue;
-		dfs_hld(chi, cur, chi);
-	}
+  id[cur] = ct++;
+  tp[cur] = top;
+  update(id[cur], v[cur]);
+  int h_chi = -1, h_sz = -1;
+  for (int chi : adj[cur]) {
+    if (chi == par) continue;
+    if (sz[chi] > h_sz) {
+      h_sz = sz[chi];
+      h_chi = chi;
+    }
+  }
+  if (h_chi == -1) return;
+  dfs_hld(h_chi, cur, top);
+  for (int chi : adj[cur]) {
+    if (chi == par || chi == h_chi) continue;
+    dfs_hld(chi, cur, chi);
+  }
 }
-
-int path(int x, int y) {
-	int ret = 0;
-	while (tp[x] != tp[y]) {
-		if (dep[tp[x]] < dep[tp[y]]) swap(x, y);
-		ret = max(ret, query(id[tp[x]], id[x]));
-		x = p[tp[x]];
-	}
-	if (dep[x] > dep[y]) swap(x, y);
-	ret = max(ret, query(id[x], id[y]));
-	return ret;
+int lca(int a, int b) {
+  if (dep[a] < dep[b]) swap(a, b);
+  for (int d = D - 1; d >= 0; d--) {
+    if (dep[a] - (1 << d) >= dep[b]) {
+      a = p[a][d];
+    }
+  }
+  for (int d = D - 1; d >= 0; d--) {
+    if (p[a][d] != p[b][d]) {
+      a = p[a][d];
+      b = p[b][d];
+    }
+  }
+  if (a != b) {
+    a = p[a][0];
+    b = p[b][0];
+  }
+  return a;
 }
-
+int path(int chi, int par) {
+  int ret = 0;
+  while (chi != par) {
+    if (tp[chi] == chi) {
+      ret = max(ret, v[chi]);
+      chi = p[chi][0];
+    } else if (dep[tp[chi]] > dep[par]) {
+      ret = max(ret, query(id[tp[chi]], id[chi]));
+      chi = p[tp[chi]][0];
+    } else {
+      ret = max(ret, query(id[par] + 1, id[chi]));
+      break;
+    }
+  }
+  return ret;
+}
 int main() {
-	scanf("%d%d", &n, &q);
-	for (int i = 1; i <= n; i++) scanf("%d", &v[i]);
-	for (int i = 2; i <= n; i++) {
-		int a, b;
-		scanf("%d%d", &a, &b);
-		adj[a].push_back(b);
-		adj[b].push_back(a);
-	}
-	dfs_sz(1, 1);
-	dfs_hld(1, 1, 1);
-	while (q--) {
-		int t;
-		scanf("%d", &t);
-		if (t == 1) {
-			int s, x;
-			scanf("%d%d", &s, &x);
-			v[s] = x;
-			update(id[s], v[s]);
-		} else {
-			int a, b;
-			scanf("%d%d", &a, &b);
-			int res = path(a, b);
-			printf("%d ", res);
-		}
-	}
+  scanf("%d%d", &n, &q);
+  for (int i = 1; i <= n; i++) scanf("%d", &v[i]);
+  for (int i = 2; i <= n; i++) {
+    int a, b;
+    scanf("%d%d", &a, &b);
+    adj[a].push_back(b);
+    adj[b].push_back(a);
+  }
+  dfs_sz(1, 1);
+  init_lca();
+  memset(st, 0, sizeof st);
+  dfs_hld(1, 1, 1);
+  while (q--) {
+    int t;
+    scanf("%d", &t);
+    if (t == 1) {
+      int s, x;
+      scanf("%d%d", &s, &x);
+      v[s] = x;
+      update(id[s], v[s]);
+    } else {
+      int a, b;
+      scanf("%d%d", &a, &b);
+      int c = lca(a, b);
+      int res = max(max(path(a, c), path(b, c)), v[c]);
+      printf("%d ", res);
+    }
+  }
 }
 ```
 
