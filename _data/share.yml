@@ -14,16 +14,20 @@ platforms:
     icon: "fab fa-telegram"
     link: "https://t.me/share/url?url=URL&text=TITLE"
 
+  - type: Codeforces
+    icon: "fa-regular fa-square-poll-vertical"
+    link: "https://codeforces.com/"
+
   # Uncomment below if you need to.
   #
   # - type: Linkedin
   #   icon: "fab fa-linkedin"
   #   link: "https://www.linkedin.com/sharing/share-offsite/?url=URL"
-  #
+  
   # - type: Weibo
   #   icon: "fab fa-weibo"
   #   link: "http://service.weibo.com/share/share.php?title=TITLE&url=URL"
-  #
+  
   # - type: Mastodon
   #   icon: "fa-brands fa-mastodon"
   #   # See: https://github.com/justinribeiro/share-to-mastodon#properties
