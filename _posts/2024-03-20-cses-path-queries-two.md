@@ -7,7 +7,7 @@ comments: false
 math: true
 ---
 
-[題目連結](https://cses.fi/problemset/task/2134/)
+[題目連結](https://cses.fi/problemset/task/2134/){:target="_blank"}
 
 ## 題意
 
@@ -22,7 +22,7 @@ math: true
 
 雖然是模板題，但是第九筆的測資非常坑人，用最 general 的 template 會 `TLE`
 
-> 第九筆測資應該是judge新增的，因為網路上的一些舊題解都會在第九筆測資TLE (e.g. [USACO Guide 的題解](https://usaco.guide/plat/hld?lang=cpp)  ，不過已向他們發issue 應該很快會更新)
+> 第九筆測資應該是judge新增的，因為網路上的一些舊題解都會在第九筆測資TLE (e.g. [USACO Guide 的題解](https://usaco.guide/plat/hld?lang=cpp){:target="_blank"}  ，不過已向他們發issue 應該很快會更新)
 {: .prompt-info}
 
 ## USACO Guide Solution
@@ -188,7 +188,7 @@ Total is $$O(n + qloglogn)$$. 是可以通過的時間複雜度
 
 試了大約三小時（通識課都沒在聽😵）終於靠壓常數過去了（時間複雜度一樣）
 
-> 感謝網路上各種天才的 tricks，真的有夠香，參考Codeforces上一篇[神文](https://codeforces.com/blog/entry/18051)
+> 感謝網路上各種天才的 tricks，真的有夠香，參考Codeforces上一篇[神文](https://codeforces.com/blog/entry/18051){:target="_blank"}
 {: .prompt-info}
 
 ### 堅果殼
