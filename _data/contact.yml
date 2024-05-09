@@ -38,6 +38,6 @@
   icon: 'fa-brands fa-adn'
   url: 'https://atcoder.jp/users/zuhazana'
 
-- type: vjudge
-  icon: 'fa-brands fa-vimeo-v'
-  url: 'https://vjudge.net/user/PoYuJuan'
+- type: medium
+  icon: 'fa-brands fa-medium'
+  url: 'https://medium.com/@pyjuan91'
