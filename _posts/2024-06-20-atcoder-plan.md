@@ -18,4 +18,4 @@ math: true
 
 ### June
 
-1. 20th, June [Nim](https://atcoder.jp/contests/abc317/tasks/abc317_f){:target="\_blank"}
+1. 20th, June [Nim](https://pyjuan91.github.io/posts/atcoder-nim/)
