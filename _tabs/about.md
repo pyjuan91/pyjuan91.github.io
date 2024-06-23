@@ -13,8 +13,4 @@ order: 4
 > **Not** a K-pop fan, loves Hearin, loves Kazuha, loves Chaewon
 {: .prompt-warning}
 
-<center>
-<kbd > 
-<img src="https://media1.tenor.com/m/tY9JG1CaJG0AAAAd/kpop-newjeans.gif" />
-</kbd>
-</center>
+![Alt Text](https://media1.tenor.com/m/tY9JG1CaJG0AAAAd/kpop-newjeans.gif)

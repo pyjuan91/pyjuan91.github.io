@@ -30,7 +30,7 @@
 #   icon: 'fab fa-stack-overflow'
 #   url:  ''                  # Fill with your stackoverflow homepage
 
-- type: codeforces
+- type: leetcode
   icon: 'fa-solid fa-l'
   url: 'https://leetcode.com/u/pyjuan91/'
 
