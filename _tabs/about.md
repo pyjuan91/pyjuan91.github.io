@@ -10,7 +10,11 @@ order: 4
 > Lacks sleep, time, and savings
 {: .prompt-info}
 
-> **Not** a K-pop fan, loves Yuqi, loves Kazuha, loves Chaewon
+> **Not** a K-pop fan, loves Hearin, loves Kazuha, loves Chaewon
 {: .prompt-warning}
 
-![Alt-text](https://i.pinimg.com/originals/94/f9/ac/94f9ac4c071237f0fd96338762b13040.gif)
+<center>
+<kbd > 
+<img src="https://media1.tenor.com/m/tY9JG1CaJG0AAAAd/kpop-newjeans.gif" />
+</kbd>
+</center>
