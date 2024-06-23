@@ -31,8 +31,8 @@
 #   url:  ''                  # Fill with your stackoverflow homepage
 
 - type: codeforces
-  icon: 'fa-solid fa-square-poll-vertical'
-  url: 'https://codeforces.com/profile/chaewon'
+  icon: 'fa-solid fa-l'
+  url: 'https://leetcode.com/u/pyjuan91/'
 
 - type: atcoder
   icon: 'fa-brands fa-adn'
