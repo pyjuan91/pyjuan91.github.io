@@ -7,6 +7,8 @@ comments: false
 math: true
 ---
 
+[Back](https://pyjuan91.github.io/posts/atcoder-plan/)
+
 [題目連結](https://atcoder.jp/contests/abc293/tasks/abc293_f){:target="\_blank"}
 
 ## 題意
@@ -168,3 +170,5 @@ int32_t main() {
   return 0;
 }
 ```
+
+[Back](https://pyjuan91.github.io/posts/atcoder-plan/)
