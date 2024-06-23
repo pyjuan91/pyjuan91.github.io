@@ -1,6 +1,6 @@
 ---
 title: AtCoder Nim
-date: 2024-05-09 00:00:00 +0800
+date: 2024-06-20 00:00:00 +0800
 categories: []
 tags: [atcoder] # TAG names should always be lowercase
 comments: false
