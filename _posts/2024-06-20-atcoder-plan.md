@@ -24,3 +24,4 @@ math: true
 4. 23th, June [Zero or One](https://pyjuan91.github.io/posts/atcoder-zero-or-one/)
 5. 24th, June [Yet Another RGB Sequence](https://atcoder.jp/contests/abc266/submissions/54925186)
 6. 25th, June [Hanjo 2](https://atcoder.jp/contests/abc204/submissions/54948009)
+7. 26th, June [Fuel Round Trip](https://pyjuan91.github.io/posts/atcoder-fuel-round-trip/)
