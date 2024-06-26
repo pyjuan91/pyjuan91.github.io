@@ -22,3 +22,5 @@ math: true
 2. 21th, June [offence](https://atcoder.jp/contests/abc325/submissions/54769652)
 3. 22th, June [Kth Number](https://atcoder.jp/contests/abc295/submissions/54788851)
 4. 23th, June [Zero or One](https://pyjuan91.github.io/posts/atcoder-zero-or-one/)
+5. 24th, June [Yet Another RGB Sequence](https://atcoder.jp/contests/abc266/submissions/54925186)
+6. 25th, June [Hanjo 2](https://atcoder.jp/contests/abc204/submissions/54948009)
