@@ -25,3 +25,5 @@ math: true
 5. 24th, June [Yet Another RGB Sequence](https://atcoder.jp/contests/abc266/submissions/54925186)
 6. 25th, June [Hanjo 2](https://atcoder.jp/contests/abc204/submissions/54948009)
 7. 26th, June [Fuel Round Trip](https://pyjuan91.github.io/posts/atcoder-fuel-round-trip/)
+8. 27th, June [Swap and Sort](https://atcoder.jp/contests/abc233/submissions/54987579)
+9. 28th, June [3N Numbers](https://atcoder.jp/contests/abc062/submissions/54996333)
