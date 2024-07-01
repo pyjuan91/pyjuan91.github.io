@@ -27,3 +27,9 @@ math: true
 7. 26th, June [Fuel Round Trip](https://pyjuan91.github.io/posts/atcoder-fuel-round-trip/)
 8. 27th, June [Swap and Sort](https://atcoder.jp/contests/abc233/submissions/54987579)
 9. 28th, June [3N Numbers](https://atcoder.jp/contests/abc062/submissions/54996333)
+10. 29th, June [RGB Coloring](https://atcoder.jp/contests/agc025/submissions/55125630)
+11. 30th, June [Distinct Numbers](https://atcoder.jp/contests/arc137/submissions/55127599)
+
+### July
+
+1. 1st, July [Min Diff Sum](https://atcoder.jp/contests/arc147/submissions/55128498)
