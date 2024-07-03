@@ -33,3 +33,5 @@ math: true
 ### July
 
 1. 1st, July [Min Diff Sum](https://atcoder.jp/contests/arc147/submissions/55128498)
+2. 2nd, July [We Love ABC](https://atcoder.jp/contests/abc104/submissions/55176200)
+3. 3rd, July [Estimate Order](https://atcoder.jp/contests/abc352/submissions/55177025)
