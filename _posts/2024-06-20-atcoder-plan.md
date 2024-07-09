@@ -36,3 +36,4 @@ math: true
 2. 2nd, July [We Love ABC](https://atcoder.jp/contests/abc104/submissions/55176200)
 3. 3rd, July [Estimate Order](https://atcoder.jp/contests/abc352/submissions/55177025)
 4. 4th, July [TrBBnsformBBtion](https://atcoder.jp/contests/arc071/submissions/55225138)
+5. 5th, July [Suitable Edit for LIS](https://atcoder.jp/contests/abc360/submissions/55406063)
