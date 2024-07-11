@@ -39,3 +39,4 @@ math: true
 5. 5th, July [Suitable Edit for LIS](https://atcoder.jp/contests/abc360/submissions/55406063)
 6. 6th, July [Two Contests](https://atcoder.jp/contests/agc040/submissions/55421347)
 7. 7th, July [Social Distance on Graph](https://pyjuan91.github.io/posts/atcoder-social-distance-on-graph/)
+8. 8th, July [Smaller Sum](https://atcoder.jp/contests/abc339/submissions/55463422)
