@@ -4,13 +4,14 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> A senior CS student
+> Currently a Research Assistant at the Research Center for Information Technology, Academia Sinica.
 {: .prompt-tip }
 
-> Lacks sleep, time, and savings
+> Graduated from the Department of Computer Science at National Tsing Hua University in June 2024.
 {: .prompt-info}
 
-> **Not** a K-pop fan, loves Hearin, loves Kazuha, loves Chaewon
+> **Not** a K-pop fan ( J-pop OP ❤️ ), stan Kang Haerin, Kim Chaewon, and Kazuha.
 {: .prompt-warning}
 
-![Alt Text](https://media1.tenor.com/m/tY9JG1CaJG0AAAAd/kpop-newjeans.gif)
+<!-- ![Alt Text](https://media1.tenor.com/m/tY9JG1CaJG0AAAAd/kpop-newjeans.gif) -->
+![Alt Text](https://media1.tenor.com/m/-myXLekwMfQAAAAd/le-sserafim-kazuha.gif)
