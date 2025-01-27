@@ -42,7 +42,7 @@ Find the maximum frequency of the value  $$k$$  after the operation.
 ### Explanation 
 
 Assume that we have found a good subarray, than we should change the most
-frequent number  $$p$$ to  $$k$$  for making total number of  $$k$$  maximized.
+frequent number  $$ p $$  to  $$ k $$  for making total number of  $$ k $$  maximized.
 
 The value we care is  **(total k's count) + (subarray p's count) - (subarray k's count)** .
 
