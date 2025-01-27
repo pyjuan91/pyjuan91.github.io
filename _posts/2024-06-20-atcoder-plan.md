@@ -5,6 +5,7 @@ categories: []
 tags: [atcoder] # TAG names should always be lowercase
 comments: false
 math: true
+pin: true
 ---
 
 今年有幸以吊尾的成績入選兩岸清華的決賽，但是我暑假需要花很多時間準備GRE，

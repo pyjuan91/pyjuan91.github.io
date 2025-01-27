@@ -5,6 +5,7 @@ categories: []
 tags: [leetcode, interview]     # TAG names should always be lowercase
 comments: false
 math: true
+pin: true
 ---
 
 As I get ready to head to the U.S. for my master's in computer science, it's time to buckle down 

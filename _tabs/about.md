@@ -14,4 +14,4 @@ order: 4
 {: .prompt-warning}
 
 <!-- ![Alt Text](https://media1.tenor.com/m/tY9JG1CaJG0AAAAd/kpop-newjeans.gif) -->
-![Alt Text](https://media1.tenor.com/m/-myXLekwMfQAAAAd/le-sserafim-kazuha.gif)
+![Alt Text](https://media1.tenor.com/m/-myXLekwMfQAAAAd/le-sserafim-kazuha.gif){: .shadow .rounded-10}
