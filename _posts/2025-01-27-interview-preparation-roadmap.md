@@ -28,3 +28,5 @@ but it's also a great way to build my problem-solving memory bank.
 2. 27th Jan [3434. Maximum Frequency After Subarray Operation (medium) ](https://pyjuan91.github.io/posts/leetcode-maximum-frequency-after-subarray-operation/)
 3. 28th Jan [3428. Maximum and Minimum Sums of at Most Size K Subsequences (medium) ](https://leetcode.com/submissions/detail/1522954050/)
 > notes: Think about contribution.
+4. 29th Jan [3424. Minimum Cost to Make Arrays Identical (medium) ](https://leetcode.com/submissions/detail/1523568599/)
+> notes: Understand the problem.
