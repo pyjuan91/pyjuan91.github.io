@@ -30,3 +30,5 @@ but it's also a great way to build my problem-solving memory bank.
 > notes: Think about contribution.
 4. 29th Jan [3424. Minimum Cost to Make Arrays Identical (medium) ](https://leetcode.com/submissions/detail/1523568599/)
 > notes: Understand the problem.
+5. 30th Jan [3418. Maximum Amount of Money Robot Can Earn (medium) ](https://leetcode.com/submissions/detail/1525504896/)
+> notes: State DP.
