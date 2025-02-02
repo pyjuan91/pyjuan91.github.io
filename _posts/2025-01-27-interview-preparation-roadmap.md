@@ -32,4 +32,4 @@ but it's also a great way to build my problem-solving memory bank.
 > notes: Understand the problem.
 5. 30th Jan [3418. Maximum Amount of Money Robot Can Earn (medium) ](https://leetcode.com/submissions/detail/1525504896/){:target="\_blank"}
 > notes: State DP.
-6. 2nd Feb [3414. Maximum Score of Non-overlapping Intervals (hard) ](https://pyjuan91.github.io/posts/leetcode-maximum-frequency-after-subarray-operation/){:target="\_blank"}
+6. 2nd Feb [3414. Maximum Score of Non-overlapping Intervals (hard) ](https://pyjuan91.github.io/posts/leetcode-maximum-score-of-non-overlapping-intervals/){:target="\_blank"}
