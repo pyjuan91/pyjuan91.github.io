@@ -23,12 +23,13 @@ but it's also a great way to build my problem-solving memory bank.
 {: .prompt-tip}
 
 ## Dynamic Programming, Greedy, Two Pointers
-1. 26th Jan [3429. Paint House IV (medium) ](https://leetcode.com/submissions/detail/1521095564/)
+1. 26th Jan [3429. Paint House IV (medium) ](https://leetcode.com/submissions/detail/1521095564/){:target="\_blank"}
 > notes: make sure how to move the frame under certain constrains.
-2. 27th Jan [3434. Maximum Frequency After Subarray Operation (medium) ](https://pyjuan91.github.io/posts/leetcode-maximum-frequency-after-subarray-operation/)
-3. 28th Jan [3428. Maximum and Minimum Sums of at Most Size K Subsequences (medium) ](https://leetcode.com/submissions/detail/1522954050/)
+2. 27th Jan [3434. Maximum Frequency After Subarray Operation (medium) ](https://pyjuan91.github.io/posts/leetcode-maximum-frequency-after-subarray-operation/){:target="\_blank"}
+3. 28th Jan [3428. Maximum and Minimum Sums of at Most Size K Subsequences (medium) ](https://leetcode.com/submissions/detail/1522954050/){:target="\_blank"}
 > notes: Think about contribution.
-4. 29th Jan [3424. Minimum Cost to Make Arrays Identical (medium) ](https://leetcode.com/submissions/detail/1523568599/)
+4. 29th Jan [3424. Minimum Cost to Make Arrays Identical (medium) ](https://leetcode.com/submissions/detail/1523568599/){:target="\_blank"}
 > notes: Understand the problem.
-5. 30th Jan [3418. Maximum Amount of Money Robot Can Earn (medium) ](https://leetcode.com/submissions/detail/1525504896/)
+5. 30th Jan [3418. Maximum Amount of Money Robot Can Earn (medium) ](https://leetcode.com/submissions/detail/1525504896/){:target="\_blank"}
 > notes: State DP.
+6. 2nd Feb [3414. Maximum Score of Non-overlapping Intervals (hard) ](https://pyjuan91.github.io/posts/leetcode-maximum-frequency-after-subarray-operation/){:target="\_blank"}
