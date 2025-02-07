@@ -35,3 +35,4 @@ but it's also a great way to build my problem-solving memory bank.
 6. 2nd Feb [3414. Maximum Score of Non-overlapping Intervals (hard) ](https://pyjuan91.github.io/posts/leetcode-maximum-score-of-non-overlapping-intervals/){:target="\_blank"}
 7. 7th Feb [3413. Maximum Coins From K Consecutive Bags (medium) ](https://leetcode.com/submissions/detail/1533887274/){:target="\_blank"}
 > notes: Make sure boundary correction.
+8. 7th Feb [3410. Maximize Subarray Sum After Removing All Occurrences of One Element (hard) ](https://pyjuan91.github.io/posts/leetcode-maximize-subarray-sum-after-removing-all-occurrences-of-one-element/){:target="\_blank"}
