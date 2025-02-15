@@ -40,3 +40,4 @@ but it's also a great way to build my problem-solving memory bank.
 > notes: Notice the range of the number.
 10. 15th Feb [3403. Find the Lexicographically Largest String From the Box I (medium) ](https://leetcode.com/submissions/detail/1543683652/)
 > notes: Should be easy.
+11. 15th Feb [3397. Maximum Number of Distinct Elements After Operations (medium) ](https://leetcode.com/submissions/detail/1543693629/)
