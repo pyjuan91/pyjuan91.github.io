@@ -41,3 +41,6 @@ but it's also a great way to build my problem-solving memory bank.
 10. 15th Feb [3403. Find the Lexicographically Largest String From the Box I (medium) ](https://leetcode.com/submissions/detail/1543683652/)
 > notes: Should be easy.
 11. 15th Feb [3397. Maximum Number of Distinct Elements After Operations (medium) ](https://leetcode.com/submissions/detail/1543693629/)
+> notes: Should be intuitive.
+12. 15th Feb [3393. Count Paths With the Given XOR Value (medium) ](https://leetcode.com/submissions/detail/1543838779/)
+> notes: Should be intuitive.
