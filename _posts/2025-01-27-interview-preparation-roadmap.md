@@ -38,3 +38,5 @@ but it's also a great way to build my problem-solving memory bank.
 8. 7th Feb [3410. Maximize Subarray Sum After Removing All Occurrences of One Element (hard) ](https://pyjuan91.github.io/posts/leetcode-maximize-subarray-sum-after-removing-all-occurrences-of-one-element/)
 9. 15th Feb [3409. Longest Subsequence With Decreasing Adjacent Difference (medium) ](https://leetcode.com/submissions/detail/1543668278/)
 > notes: Notice the range of the number.
+10. 15th Feb [3403. Find the Lexicographically Largest String From the Box I (medium) ](https://leetcode.com/submissions/detail/1543683652/)
+> notes: Should be easy.
