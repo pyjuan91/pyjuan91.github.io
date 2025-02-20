@@ -44,3 +44,5 @@ but it's also a great way to build my problem-solving memory bank.
 > notes: Should be intuitive.
 12. 15th Feb [3393. Count Paths With the Given XOR Value (medium) ](https://leetcode.com/submissions/detail/1543838779/)
 > notes: Should be intuitive.
+13. 20th Feb [3439. Reschedule Meetings for Maximum Free Time I (medium) ](https://leetcode.com/submissions/detail/1549337108/)
+> notes: Think about the feature of moving a box orderly.
