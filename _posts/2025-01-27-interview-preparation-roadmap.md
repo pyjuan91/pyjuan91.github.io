@@ -46,3 +46,5 @@ but it's also a great way to build my problem-solving memory bank.
 > notes: Should be intuitive.
 13. 20th Feb [3439. Reschedule Meetings for Maximum Free Time I (medium) ](https://leetcode.com/submissions/detail/1549337108/)
 > notes: Think about the feature of moving a box orderly.
+14. 22th Feb [3440. Reschedule Meetings for Maximum Free Time II (medium) ](https://leetcode.com/submissions/detail/1551485255/)
+> notes: Also think about the contribution of each move.
