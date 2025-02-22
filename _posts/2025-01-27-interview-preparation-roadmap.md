@@ -47,3 +47,4 @@ but it's also a great way to build my problem-solving memory bank.
 > notes: Think about the feature of moving a box orderly.
 14. 22th Feb **3440. Reschedule Meetings for Maximum Free Time II (medium)**
 > notes: Also think about the contribution of each move.
+15. 22th Feb [3389. Minimum Operations to Make Character Frequencies Equal (hard) ](https://pyjuan91.github.io/posts/leetcode-minimum-operations-to-make-character-frequencies-equal/)
