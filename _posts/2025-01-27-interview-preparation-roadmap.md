@@ -25,16 +25,16 @@ but it's also a great way to build my problem-solving memory bank.
 ## Dynamic Programming, Greedy, Two Pointers
 1. 26th Jan **3429. Paint House IV (medium)**
 > notes: make sure how to move the frame under certain constrains.
-2. 27th Jan [3434. Maximum Frequency After Subarray Operation (medium) ](https://pyjuan91.github.io/posts/leetcode-maximum-frequency-after-subarray-operation/)
+2. 27th Jan [3434. Maximum Frequency After Subarray Operation (medium) ](../leetcode-maximum-frequency-after-subarray-operation/)
 3. 28th Jan **3428. Maximum and Minimum Sums of at Most Size K Subsequences (medium)**
 > notes: Think about contribution.
 4. 29th Jan **3424. Minimum Cost to Make Arrays Identical (medium)**
 > notes: Understand the problem.
 5. 30th Jan **3418. Maximum Amount of Money Robot Can Earn (medium)**
-6. 2nd Feb [3414. Maximum Score of Non-overlapping Intervals (hard) ](https://pyjuan91.github.io/posts/leetcode-maximum-score-of-non-overlapping-intervals/)
+6. 2nd Feb [3414. Maximum Score of Non-overlapping Intervals (hard) ](../leetcode-maximum-score-of-non-overlapping-intervals/)
 7. 7th Feb **3413. Maximum Coins From K Consecutive Bags (medium)**
 > notes: Make sure boundary correction.
-8. 7th Feb [3410. Maximize Subarray Sum After Removing All Occurrences of One Element (hard) ](https://pyjuan91.github.io/posts/leetcode-maximize-subarray-sum-after-removing-all-occurrences-of-one-element/)
+8. 7th Feb [3410. Maximize Subarray Sum After Removing All Occurrences of One Element (hard) ](../leetcode-maximize-subarray-sum-after-removing-all-occurrences-of-one-element/)
 9. 15th Feb **3409. Longest Subsequence With Decreasing Adjacent Difference (medium)**
 > notes: Notice the range of the number.
 10. 15th Feb **3403. Find the Lexicographically Largest String From the Box I (medium)**
