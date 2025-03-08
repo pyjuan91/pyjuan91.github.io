@@ -51,3 +51,7 @@ but it's also a great way to build my problem-solving memory bank.
 16. 4th Mar **3388. Count Beautiful Splits in an Array (medium)**
 > notes: Use string hashing technique for convenience.
 17. 5th Mar [3367. Maximize Sum of Weights after Edge Removals (hard) ](../leetcode-maximize-sum-of-weights-after-edge-removals/)
+
+## Graph (BFS, DFS, Tree, ...)
+1. 9th Mar **3419. Minimize the Maximum Edge Weight of Graph (medium)**
+> notes: Use concepts of minimum spaning tree.
