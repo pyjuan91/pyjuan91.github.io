@@ -8,6 +8,11 @@ order: 4
 {: .prompt-tip }
 
 > Graduated from the Department of Computer Science at National Tsing Hua University in June 2024.
+>
+> Starting my Master of Engineering in Computer Science at Cornell Tech in August 2025.
+{: .prompt-info}
+
+
 {: .prompt-info}
 
 > **Not** a K-pop fan ( J-pop OP ❤️ ), stan Kang Haerin, Kim Chaewon, and Kazuha.
