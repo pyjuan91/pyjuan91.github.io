@@ -57,3 +57,5 @@ but it's also a great way to build my problem-solving memory bank.
 > notes: Use concepts of minimum spaning tree.
 2. 10th Mar **3387. Maximize Amount After Two Days of Conversions (medium)**
 > notes: Use high-precision floating-point.
+3. 10th Mar **3380. Maximum Area Rectangle With Point Constraints I (medium)**
+> notes: Should be easy when it's constrained to be parallel to the axes.
