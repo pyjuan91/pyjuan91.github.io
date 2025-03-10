@@ -55,3 +55,5 @@ but it's also a great way to build my problem-solving memory bank.
 ## Graph (BFS, DFS, Tree, ...)
 1. 9th Mar **3419. Minimize the Maximum Edge Weight of Graph (medium)**
 > notes: Use concepts of minimum spaning tree.
+2. 10th Mar **3387. Maximize Amount After Two Days of Conversions (medium)**
+> notes: Use high-precision floating-point.
